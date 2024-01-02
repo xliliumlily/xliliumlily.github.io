@@ -1,0 +1,604 @@
+#jikoshoukai{
+    font-family:Zen Maru Gothic; 
+    line-height: 1;
+    font-size:7vw;
+    color:#fff;
+}
+#h5{
+    line-height: 1;
+    font-family: Ephesis;
+    font-size:3vw;
+    color: #fff;
+}
+#jikoshoukai_right_text{
+    border: 5px solid #000;
+    border-radius: 20px;
+    padding:10%;
+}
+#bg_color{
+    margin:3%;
+    padding:3%;
+    border: 5px solid #f5c645;
+    border-radius: 20px;
+    background:url(../img/bg.png)bottom/contain  no-repeat;
+    
+}
+<!--最外面的框線-->
+
+#anyoi{
+    font-size: 5vw;
+}
+
+.carousel-inner div{
+    width: 100%; /* 图片宽度占据容器的100% */
+    height: auto;
+}
+/*輪播按鈕項調整>vw是響應式尺寸，contain是符合圖片大小、cover是符合容器大小*/
+#robo .carousel-indicators button  {
+    padding:3vw;/*大小*/
+    left: 15%;
+    background: url(../img/svg/star-alt-3-svgrepo-com.svg)center/contain no-repeat;
+    /*背景設定為居中符合圖片大小不重複的圖片
+    center/contain是縮寫 原長度如下
+    background-size:ccontain;
+    background-position:center*/
+}
+#robo .carousel-indicators {
+    position: absolute;
+    left: 65%;
+  }/*按鈕的位置*/
+
+.carousel-caption{
+    transform: translate(-13%,1%);/*將容器位置移到-的位置(-為超出範圍之處) X跟Y寫一起(X,Y)*/
+    font-family:Zen Maru Gothic;  
+}
+/*覆蓋boostrap樣式*/
+#caption{
+    padding-bottom:0;
+}
+.carousel-caption h1{
+    font-size:7vw;
+    text-shadow: 5px 15px 15px #000;
+}
+#top_svg_r{
+    max-width:5%;
+    float:right;/*圖片對齊右邊*/
+    
+}
+#top_svg_r_1{
+    max-width:7%;
+    float:right;/*圖片對齊右邊*/
+    
+}
+#top_svg_l_2{
+    max-width:7%;   
+}
+#top_svg_l{
+    max-width:5%;   
+}
+
+article ul{
+    background-color:#f5c645;
+}
+#body{
+    background-color: rgb(6, 6, 105);
+}
+/*大事*/
+
+#dai_01{
+    position: relative;
+    margin-bottom:5%;
+}
+#dai_01 img{
+    width: 100%; /* 图片宽度占据容器的100% */
+    height: auto; /* 高度自动调整，保持比例 */
+    display: block;
+}
+#dai_text{
+    position: absolute;
+    top: 60%; /* 文字在图像上方 50% 的位置 */
+    left: 5%; /* 文字在图像左侧 50% 的位置 */
+    color: white;
+    font-size: 5vw; /* 使用vw单位，根据视口宽度调整字体大小 */
+    font-weight: bold;
+    text-align: start;
+    text-shadow: 0.2vw 0.2vw 15px #f5c645;
+}
+
+/*可透過寫圖片的width跟height大小與auto設定自動填滿容器的width或height，另外一個則自動*/
+#anyoi{
+    font-family:Zen Maru Gothic; 
+    font-size:70px;
+    color:#fff;
+}
+#my{
+    border: 5px solid #f5c645;
+    border-radius: 20px;
+    color: #fff;
+    padding:5%;
+    font-size:20px;
+    font-weight: bold;
+}
+
+#more{
+    color: #fff;
+    font-size:30px;
+}
+#ul01{
+color: #fff;
+font-size:30px;
+}
+/*測試圖片+字*/
+  
+/**/
+#my_img{
+    margin-left:4%;
+}
+#my_img img{
+    max-width:3.5vw; 
+}
+/*********************************/
+
+.order {
+    display: flex;
+    
+    align-items: center; 
+    /*^^^^^^^^^^屬性大禮包*/
+    height:5%;
+    line-height: 60px;
+    text-align: center;
+    
+}
+.order .line {
+    display: inline-block;
+    width: 85%;
+    border-top: 3px solid #f5c645;
+     
+}
+.order #line_txt{
+    margin-left:2.5%;
+    font-size:30px;
+    color: #f5c645;
+    text-decoration:none
+    
+}
+.order #line_txt a:hover {
+    font-size:20; 
+    color:rgb(227, 75, 20); text-decoration:none;
+    }
+.order img{
+    margin-left:50%;
+    max-width:2.5vw; 
+}
+
+/*社群連結區*/
+#link{
+    display:flex;
+    justify-content:space-around;
+}
+#L_link{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:30%;
+}
+#L_link div{
+    margin-bottom:10%;
+}
+
+#R_link{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width:30%; 
+}
+#R_link div{
+    margin-bottom:10%;
+}
+#L_link a{
+    color: #fff;
+    font-size:30px;
+    margin-left:15%;
+    text-decoration:none
+}
+#R_link a{
+    color: #fff;
+    font-size:30px;
+    margin-left:15%;
+    text-decoration:none
+}
+
+
+/*link連結游標移入*/
+
+#L_link_01{
+    position: relative;
+}
+#L_link_01:hover::before{
+    position: absolute;
+    left: 1vw;
+    top:9vw;
+    color: #fff;
+    font-size: .9vw;
+    font-weight: bold;
+    background: #b38405;
+    padding: 10px;
+    border-radius: 5px;
+    content: 'Akatsuki Hibiki https://www.facebook.com/Harusame030 點擊可前往';
+    z-index:32;
+    }
+    
+/*l02*/
+#L_link_02{
+    position: relative;
+}
+#L_link_02:hover::before{
+    position: absolute;
+    left: 1vw;
+    top:9vw;
+    color: #fff;
+    font-size: .9vw;
+    font-weight: bold;
+    background: #b38405;
+    padding: 10px;
+    border-radius: 5px;
+    content: '@xLiliumlily_ https://twitter.com/xLiliumLily_ 點擊可前往';
+    z-index:32;
+    }
+/*R01*/
+#R_link_01{
+    position: relative;
+}
+#R_link_01:hover::before{
+    position: absolute;
+    left: 1vw;
+    top:9vw;
+    color: #fff;
+    font-size: .9vw;
+    font-weight: bold;
+    background: #b38405;
+    padding: 10px;
+    border-radius: 5px;
+    content: '杏宵 https://www.pixiv.net/users/7129346 點擊可前往';
+    z-index:32;
+    }
+/*R02*/
+#R_link_02{
+    position: relative;
+}
+#R_link_02:hover::before{
+    position: absolute;
+    left: 1vw;
+    top:9vw;
+    color: #fff;
+    font-size: .9vw;
+    font-weight: bold;
+    background: #b38405;
+    padding: 10px;
+    border-radius: 5px;
+    content: 'xliliumlily@gmail.com''點擊可複製';
+    z-index:32;
+    }
+               
+/**/
+#img_risuto{
+    display:flex;
+    justify-content:space-around;
+}
+
+/*依據圖片大小做容器貼合的例子*/
+.image-container {
+    position: relative;
+    width: 100%; /* 图片容器宽度占据父元素的100% */
+     /* 图片容器最大宽度，根据需要调整 */
+     margin-bottom:10%; 
+  }
+  .image-container:hover::before{
+    position: absolute;
+    
+    left: 0;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: bold;
+    background: #f5c645;
+    padding: 10px;
+    border-radius: 5px;
+    content: '點開可看大圖';
+    }
+    
+/*固定圖片的位置?*/
+ .image-container image {
+    width: 100%; /* 图片宽度占据容器的100% */
+    height: auto; /* 高度自动调整，保持比例 */
+    display: block;
+    clear: right;
+  }
+  /*幫圖片上陰影*/
+#img_01{
+    box-shadow: 1vw 1vw 1px #f5c645;
+    border: 0.3vw solid #ffffff;
+}
+  .text-overlay {
+    position: absolute;
+    top: 83%; /* 文字在图像上方 50% 的位置 */
+    left: 5%; /* 文字在图像左侧 50% 的位置 */
+    color: white;
+    font-size: 2vw; /* 使用vw单位，根据视口宽度调整字体大小 */
+    font-weight: bold;
+    text-align:start;
+    text-shadow: 0.2vw 0.2vw 5px #f5c645;
+  }
+  .img-overlay {
+    position: absolute;
+    top: 25%; /* 文字在图像上方 50% 的位置 */
+    left: 101%; /* 文字在图像左侧 50% 的位置 */
+    max-width:4vw; /* 使用vw单位，根据视口宽度调整字体大小 */
+    float: right;
+    filter: drop-shadow(0.5vw 0.5vw 10px #f5c645);
+  }
+  #img_all{
+    margin-left:3%;
+  }
+#hrdesu{
+    margin-top: 3%;
+    margin-bottom:3%;
+    border-top: 1px solid #f5c645;
+    opacity:100%;
+}
+ 
+#mail{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+  /*導覽區*/
+  article li{
+    margin-left:2%;
+    font-family:Zen Maru Gothic; 
+    font-size: 1.2vw;
+  }
+  article li a:link{
+    color: #ffffff;
+    text-decoration:none
+  }
+  article li a:visited{
+    color: #ffffff;
+    text-decoration:none
+  }
+  article li a:hover {
+    font-size:20; 
+    color:rgb(86, 24, 0); text-decoration:underline;
+  }
+
+
+
+  /*頁腳*/
+  footer{
+    font-size:.7vw;
+    color: #bebebe;
+    margin-bottom:3%;
+  }
+
+
+  /*大事區額外紀錄CSS*/
+  
+  #ul_02{
+    color: #fff;
+    font-size:30px;
+    list-style:none
+    
+    }
+
+    #ul_02 li{
+        margin-top: 2%;
+        margin-bottom:2%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+     li a:link{
+        color: #fff;
+        text-decoration:none
+    }
+    li a:visited{
+            color: #ffffff;
+            text-decoration:none
+      }
+      li a:hover {
+
+        color:#f5c645;
+         text-decoration:underline;
+      }
+    li img{
+        max-width:2.5vw; 
+    }
+
+
+    /*內頁*/
+    #ne{
+        color: #fff;
+    font-size:25px;
+    }
+
+    #li01{
+        display: flex;
+    justify-content:right;
+    }
+
+    /*16p*/
+    #m16{
+        justify-content:center;
+    }
+    #m16 div{
+     margin-left:2%;
+     margin-right:2%;
+    }
+    #m16p{
+        position: relative;
+    }
+    #m16p::before{
+        content: '';
+        position: absolute;
+        transform:rotate(-10deg);
+        width:16vw;
+        height:4vw;
+        background:url(../img/svg/star-06-svgrepo-com.svg)repeat;
+        background-size:auto 15px;
+        background-color: #fffad7;
+        }
+    #m16p::after{
+        content: '';
+        position: absolute;
+        transform:rotate(10deg);
+        width:16vw;
+        height:4vw;
+        background:url(../img/svg/star-fruit-food-fruit-eat-svgrepo-com.svg)repeat;
+        background-size:auto 30px;
+        
+    }
+    #m16p::before{
+        top:-2vw;
+        left:-25px;
+        
+    }
+    #m16p::after{
+        bottom:-2vw;
+        right:-25px;
+        
+    }
+    #m16p2{
+        position: relative;
+    }
+    #m16p2::before{
+        content: '';
+        position: absolute;
+        transform:rotate(10deg);
+        width:16vw;
+        height:4vw;
+        background:url(../img/svg/star-fruit-food-fruit-eat-svgrepo-com.svg)repeat;
+        background-size:auto 30px;
+    }
+    #m16p2::after{
+        content: '';
+        position: absolute;
+        transform:rotate(-10deg);
+        width:16vw;
+        height:4vw;
+        background:url(../img/svg/star-06-svgrepo-com.svg)repeat;
+        background-size:auto 15px;
+        background-color:#fffad7;
+    }
+    #m16p2::before{
+        top:-2vw;
+        left:-25px;
+        
+    }
+    #m16p2::after{
+        bottom:-2vw;
+        right:-25px;
+    }
+    
+
+
+/*落書*/
+#rakugakiul{
+    column-count:2;
+    padding:2%;
+    list-style:none;
+
+}
+#rakugakiul li{
+    padding:2%;
+}
+#html_button{
+    display: block;
+    width:100%;
+    height:auto;
+    border-radius:10px;
+}
+#html_button img{
+    display: block;
+    width:100%;
+    height:auto;
+    border-radius:10px;
+}
+#body_center{
+    display: flex;
+    justify-content:center;
+}
+
+/*回首頁*/
+#home{
+    max-width:10vw; 
+}
+#home_div{
+    border: 0.2vw solid #f5c645;
+    display: flex;
+    justify-content:center;
+    margin-top: 5%;
+    margin-bottom:5%;
+    margin-left:35%;
+    margin-right:40%;
+    border-radius:30px;
+}
+#home_div p ,a:link,a:hover,a:visited{
+    text-decoration:none
+}
+#home_div p{
+    font-weight: bold;
+    font-size:45px;
+    color: #f5c645;
+    text-decoration:none
+}
+#home_div:hover{
+    background-color: #150842;
+}
+
+/*回置頂*/
+#myBtn {
+    
+    position:fixed;
+    right:5%;
+    bottom:5%;
+    opacity:0.5;
+}
+#myBtn img{
+    max-width:7vw;
+}
+#myBtn:hover{
+    opacity:1;
+}
+
+
+/*插畫區*/
+#timeline{
+    font-size:25px;
+    background-color: #f5c645;
+    border-radius: 20px;
+    padding:1%;
+    font-weight: bold;
+    color:#715302;
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-left:.5%;
+}
+#e {
+    display: flex;
+    flex-wrap:wrap;
+}
+#irasuto_all{
+    max-width:25%;
+    max-height: auto;
+}
+
+
+

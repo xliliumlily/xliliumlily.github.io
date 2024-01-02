@@ -1,0 +1,70 @@
+#dai_01:hover p{
+    transition:1s;
+    
+    transform: translateX(50px);
+
+}
+#dai_01:hover #dai_img{
+    mix-blend-mode: screen;
+    opacity:70%;
+}
+#img_all_l:hover{
+    transition:1s;
+    transform: translateX(30px);
+}
+
+#Parallax01{
+    max-width:5vw;
+    position: fixed;
+    right:10%;
+    bottom:3%;
+    z-index:-1;
+}
+#Parallax02{
+    max-width:5vw;
+    position: fixed;
+    right:50%;
+    bottom:10%;
+    z-index:-1;
+    opacity:90%;
+}
+#Parallax03{
+    max-width:5vw;
+    position: fixed;
+    right:90%;
+    bottom:10%;
+    z-index:-1;
+    opacity:90%;
+}
+#Parallax04{
+    max-width:5vw;
+    position: fixed;
+    left:30%;
+    bottom:30%;
+    z-index:-1;
+    opacity:30%;
+}
+#Parallax05{
+    max-width:5vw;
+    position: fixed;
+    left:15%;
+    bottom:15%;
+    z-index:-1;
+    opacity:50%;
+}
+#Parallax06{
+    max-width:5vw;
+    position: fixed;
+    right:20%;
+    bottom:15%;
+    z-index:-1;
+    opacity:50%;
+}
+#Parallax07{
+    max-width:5vw;
+    position: fixed;
+    right:10%;
+    bottom:5%;
+    z-index:-1;
+    opacity:80%;
+}

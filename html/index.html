@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>バルバリシアの裏庭</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Yusei+Magic&family=Zen+Kaku+Gothic+New:wght@500&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Mochiy+Pop+One&family=Yusei+Magic&family=Zen+Kaku+Gothic+New:wght@500&family=Zen+Maru+Gothic:wght@500&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/steyle_animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+1
+<body id="body">
+
+  
+<article class="fixed-top"><!--置頂的li-->
+  <ul class="b nav p-3">
+    <li class="me-5 col-4"></li>
+    <div id="li01"class=" b nav col-7 ">
+    <li class=" me-5"><a href="#">ホーム</a></li>
+    <li class=" me-5"><a href="#jikoshoukai">自己紹介</a></li>
+    <li class=" me-5"><a href="../html/irasuto.html">イラスト一覧</a></li>
+    <li class=" "><a href="../html/dai.html">最近の大事リスト</a></li>
+    </div>
+    
+ </ul>
+ </ul>
+
+ <!--***************************************垂掉svg項***************************************-->
+ <img id="top_svg_r_1" src="..\img\svg\star-06-svgrepo-com.svg">
+ <img id="top_svg_r" src="../img/svg/star-galaxy-svgrepo-com.svg">
+ <img id="top_svg_l"src="../img/svg/star-galaxy-svgrepo-com.svg">
+ <img id="top_svg_l_2"src="..\img\svg\star-06-svgrepo-com.svg">
+ <img id="top_svg_l"src="../img/svg/star-galaxy-svgrepo-com.svg">
+ <!--需寫追加垂下來的svg-->
+</article>
+
+
+<!--設maggin的話響應式的間隔沒有跟著動-->
+
+<div id="robo" class="carousel slide" data-bs-ride="carousel"><!--最上方的圖片+文字在圖上-->
+
+    <div data-aos="flip-up"class="carousel-indicators "><!--按鈕項-->
+        <button type="button" data-bs-target="#robo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#robo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#robo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#robo" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#robo" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    
+    <div class="carousel-inner"><!--圖片項-->
+        <div class="carousel-item active"><!--第一輪播-->
+            <img src="../img/top/01.jpg" class="d-block w-100"alt="">
+        </div>
+        <div class="carousel-item"><!--第2輪播-->
+            <img src="../img/top/02.jpg" class="d-block w-100"alt="">
+        </div>
+        <div class="carousel-item"><!--第3輪播-->
+            <img src="../img/top/03.jpg" class="d-block w-100"alt="">
+        </div>
+        <div class="carousel-item"><!--第4輪播-->
+            <img src="../img/top/04.jpg" class="d-block w-100"alt="">
+        </div>
+        <div class="carousel-item"><!--第5輪播-->
+            <img src="../img/top/05.jpg" class="d-block w-100"alt="">
+        </div>
+
+        <div id="caption" class="carousel-caption "><!--輪播字-->
+            
+            <h1 data-aos="fade-right"class="text-start">バルバリシア<br>の裏庭</h1>
+        </div>
+    </div>
+    
+
+    <!--分隔線-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#robo" data-bs-slide="prev"><!--圖片按鈕項-->
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#robo" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        
+      </button>
+</div><!--圖片項結束-->
+
+
+ 
+ <div  id="bg_color"class="row"><!--內容-->
+    <!--視差滾動項-->
+    <div id="Parallax">
+      <img class="para"id="Parallax01" src="../img/svg/PARALLAX/star-2-svgrepo-com.svg"speed="100">
+      <img class="para"id="Parallax02"src="../img/svg/PARALLAX/star-filled-svgrepo-com.svg"speed="30">
+      <img class="para"id="Parallax03"src="../img/svg/PARALLAX/star-2-svgrepo-com.svg"speed="1">
+      <img class="para"id="Parallax04"src="../img/svg/PARALLAX/star-of-life-svgrepo-com.svg"speed="3">
+      <img class="para"id="Parallax05"src="../img/svg/PARALLAX/star-filled-svgrepo-com.svg"speed="10">
+      <img class="para"id="Parallax06"src="../img/svg/PARALLAX/star-of-life-svgrepo-com.svg" speed="5">
+      <img class="para"id="Parallax07"src="../img/svg/PARALLAX/star-2-svgrepo-com.svg"speed="40">
+    </div>
+
+
+    <div><!--空格-->
+        <br><br>
+        <a name="my_"></a> <br>
+    </div>
+
+    <!--***************************************自我介紹區***************************************-->  
+        
+        <h1 data-aos="fade-up"id="jikoshoukai">自己介紹</h1>
+         <p data-aos="fade-right"data-aos-duration="500"data-aos-delay="300"id="h5" class="ps-4">—my profile</p>    
+    
+    <div id="watashi" class="col-6 p-5 "><!--左-->           
+            <img data-aos-duration="1500"data-aos="zoom-in"class="rounded-circle img-fluid ms-5" src="..\img\截圖 2023-11-27 15.52.49.png"><!--響應式需修改-->
+            <p id="anyoi" class="d-flex justify-content-center ">杏宵</p>            
+    </div>
+    <div data-aos="fade-left" class="col-6 p-5"><!--右-->
+        <p id="my">こんにちは、<br>
+            杏宵呼ばれて台湾在住20歳の大学生です<br>
+            絵描くについてとても高い熱情と研究と、未来はそのところにもっと進めていきたい！<br>
+            趣味はゲームを遊んびます！ブルアカのミカちゃんはとっても可愛いのでいっぱいミカについて絵が描きます<br>
+            それでもはない、他の学生たちも好きって時々描きたいの描くことがあります<br>
+            日本語また勉強していますので<br>おかしい日本語にあったらごめんなさい＞＜！<br>
+            <br>
+            簡単な對話ならば大丈夫かも、またまた色々勉強中、あと日本語のテストについてn3くらいとかもっと難しいn1くらいとかやってみたいです！<br>
+            ここに見たのあなたに感謝申し上げます。<br>
+            </p>
+            <div id="my_img">
+                <img data-aos="flip-left"data-aos-anchor-placement="top-bottom"data-aos-delay="200" src="../img/svg/star-alt-3-svgrepo-com.svg" alt="">
+                <img data-aos="flip-left"data-aos-anchor-placement="top-bottom"data-aos-delay="300"src="../img/svg/star-alt-3-svgrepo-com.svg" alt="">
+                <img data-aos="flip-left"data-aos-anchor-placement="top-bottom"data-aos-delay="400"src="../img/svg/star-alt-3-svgrepo-com.svg" alt="">
+                <img data-aos="flip-left"data-aos-anchor-placement="top-bottom"data-aos-delay="500"src="../img/svg/star-alt-3-svgrepo-com.svg" alt="">
+                <img data-aos="flip-left"data-aos-anchor-placement="top-bottom"data-aos-delay="600"src="../img/svg/star-alt-3-svgrepo-com.svg" alt="">
+                <img data-aos="flip-left"data-aos-anchor-placement="top-bottom"data-aos-delay="700"src="../img/svg/star-alt-3-svgrepo-com.svg" alt="">
+                <img data-aos="flip-left"data-aos-anchor-placement="top-bottom"data-aos-delay="800"src="../img/svg/star-alt-3-svgrepo-com.svg" alt="">
+                <img data-aos="flip-left"data-aos-anchor-placement="top-bottom"data-aos-delay="900"src="../img/svg/star-alt-3-svgrepo-com.svg" alt="">
+                <img data-aos="flip-left"data-aos-anchor-placement="top-bottom"data-aos-delay="1000"src="../img/svg/star-alt-3-svgrepo-com.svg" alt="">
+                
+            </div>
+            
+    </div>
+
+    <div><!--空格-->
+        <br><br><br><br><br>
+    </div>
+    <!--***************************************社群連結區***************************************-->
+<div id="link" class="row"><!--社群連結區-->
+    <div id="L_link"class="col-6 row"><!--左邊社群連結-->
+        <div data-aos-duration="1500"data-aos="fade-up"id="L_link_01" class="row align-items-center">
+            <div id="link_svg" class="col-6 ">
+                <a href="https://cdn0.techbang.com/system/images/647250/original/d7c25f1d41f6b3d8d986431468bef64d.jpg?1661226032" target="_blank"><img class="img-fluid" src="../img/svg/facebook-rounded-svgrepo-com.svg"></a>
+            </div>
+            <div id="link_text" class="col-6 ">
+                <a href="https://cdn0.techbang.com/system/images/647250/original/d7c25f1d41f6b3d8d986431468bef64d.jpg?1661226032" target="_blank" >facebook</a>
+            </div>
+        </div>    
+
+        <br><br>
+
+        <div data-aos-duration="2500"data-aos="fade-up"id="L_link_02" class="row align-items-center">
+         <div id="link_svg2"class="col-6 ">
+            <a href="https://hips.hearstapps.com/hmg-prod/images/collage-1606467947.jpg?crop=0.498xw:0.993xh;0,0&resize=1200:*" target="_blank"><img class="img-fluid"src="../img/svg/twitter-rounded-svgrepo-com.svg"></a>
+         </div>
+         <div class="col-6 ">
+            <a href="https://hips.hearstapps.com/hmg-prod/images/collage-1606467947.jpg?crop=0.498xw:0.993xh;0,0&resize=1200:*" target="_blank">twitter</a> 
+         </div>    
+        </div>  
+    </div>
+
+    
+    <div id="R_link"class="col-6 row"><!--右邊社群連結-->
+        <div data-aos-duration="1500"data-aos="fade-up"id="R_link_01" class="row align-items-center">
+         <div id="link_svg"class="col-6 ">
+            <a href="https://www.pixiv.net/users/7129346" target="_blank"><img class="img-fluid"src="../img/svg/pixiv-svgrepo-com.svg"></a>
+         </div>
+         <div class="col-6 "> 
+            <a href="https://www.pixiv.net/users/7129346" target="_blank">pixiv</a>
+         </div>
+        </div>
+        <br><br>
+        <div data-aos-duration="2500"data-aos="fade-up"id="R_link_02" onclick="copy()" class="row align-items-center"><!--設定複製連結功能-->
+          
+         <div id="link_svg2"class="col-6">
+            <a><img class="img-fluid"src="../img/svg/mail-11-svgrepo-com.svg"></a>
+         </div>
+         <div class="col-6 "> 
+            <a >mail</a>
+         </div>
+         <p id="mail">xLiliumlily@gmail.com</p>
+        </div>
+    </div>
+</div>
+
+
+    <div><!--空格-->
+        <br><br><br><br><br><br>
+    </div>
+
+    <!--***************************************作品集縮圖區***************************************-->
+
+    <!--解決:響應式增加縮小網頁尺寸 原本版型會跑掉的問題
+    js點擊動畫&圖片上+字的效果 more的分隔線設定-->
+
+    <h1 data-aos="fade-up"id="jikoshoukai"class=" mt-5">イラスト</h1>
+    <p data-aos-delay="300"data-aos-duration="500"data-aos="fade-right"id="h5" class="ps-4 "> —illustration</p>
+
+    <div><!--空格-->
+        <br><br><br>
+    </div>
+    <!--縮圖區-->
+    <!--測試-->
+
+
+
+<div id="img_all"class="row"><!--包住整個縮圖的區域-->
+<div class="col-6"><!--左邊縮圖-->
+    <div data-aos="zoom-in-up"id="img_all_l" class="image-container"><!--圖01+字-->
+            <!-- Button trigger modal -->
+    
+<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <img id="img_01"class="image img-fluid rounded-3" src="../img/data/01.jpg" alt="Your Image">
+        <p class="text-overlay">先生と一緒に見たよる</p>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">先生と一緒に見たよる</h5><!--標題-->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="body_center"class="modal-body">
+          <img  class="img-fluid" src="../img/data/01.jpg">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    <!--modal-->
+  </div>
+</div>
+
+    <div data-aos-duration="1500"data-aos="zoom-in-up"id="img_all_l"class="image-container"><!--圖02+字-->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal02">
+         <img id="img_01" class="image img-fluid rounded-3" src="../img/data/02.jpg" alt="Your Image">
+         <p class="text-overlay">先生、一緒に遊ぼう～</p>
+        </button>
+
+        <!-- Modal -->
+<div class="modal fade" id="exampleModal02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel02">先生、一緒に遊ぼう～</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="body_center"class="modal-body">
+            <img  class="img-fluid" src="../img/data/02.jpg">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn " data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+       <!--modal--> 
+    
+    </div>
+   
+</div>
+    
+<div class="col-6">    
+    <div data-aos="zoom-in-up"id="img_all_l"class="image-container"><!--圖03+字-->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal03">
+         <img id="img_01"class="image img-fluid rounded-3" src="../img/data/03.jpg" alt="Your Image">
+         <p class="text-overlay">我忘記這個要叫什麼了</p>
+        </button>
+         <!-- Modal -->
+  <div class="modal fade" id="exampleModal03" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">我忘記這個要叫什麼了</h5><!--標題-->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="body_center"class="modal-body">
+          <img  class="img-fluid" src="../img/data/03.jpg">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal-->
+    </div>
+
+
+    <div data-aos-duration="1500"data-aos="zoom-in-up"id="img_all_l"class="image-container"><!--圖04+字-->
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal04">
+        <img id="img_01" class="image img-fluid rounded-3" src="../img/data/04.jpg" alt="Your Image">
+        <p class="text-overlay">キタちゃんの</p>
+        </button>
+         <!-- Modal -->
+        <div class="modal fade" id="exampleModal04" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">キタちゃんの</h5><!--標題-->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="body_center"class="modal-body">
+          <img  class="img-fluid" src="../img/data/04.jpg">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
+        </div>
+         </div>
+        </div>
+        </div>
+  <!--modal-->
+    </div>
+</div>      
+</div>
+    <!--分隔線部分-->
+    <div class="order">
+        <span ></span><span class="line"></span>
+        <span ></span>
+        <span><img src="../img/svg/star-alt-3-svgrepo-com.svg" alt=""></span>
+        <span class=" img-fluid" id="line_txt"> <a id="line_txt"href="..\html\dai.html">more</a></span>
+        
+    </div>
+
+    <div><!--空格-->
+        <br><br><br><br><br><br><br><br><br>
+    </div>
+    
+
+    <!--***************************************大事區***************************************-->
+    <h1 data-aos="fade-up"id="jikoshoukai">最近の大事</h1>
+    <p data-aos-delay="300"data-aos-duration="500"data-aos="fade-right"id="h5" class="ps-4 ">—news</p>
+
+    <div data-aos="flip-up"id="dai_01">
+        <a href="..\html\01\16p.html"><img id="dai_img"class="rounded-3 img-fluid  "src="../img/dai/01.jpg">
+        <p id="dai_text"class=>16Pミカイラスト同人誌製作中<img class="img-overlay"src="..\img\svg\arrow-right-circle-svgrepo-com.svg"></p></a>
+    </div>
+    <div data-aos-duration="1000"data-aos="flip-up"id="dai_01">
+        <a href="../html/01/rakugagi.html"><img id="dai_img"class="rounded-3 img-fluid"src="../img/dai/02.jpg">
+        <p id="dai_text"class=>らくがき放置<img class="img-overlay"src="..\img\svg\arrow-right-circle-svgrepo-com.svg"></p></a>
+    </div>
+
+     <!--分隔線部分-->
+     <div class="order">
+        <span ></span><span class="line"></span>
+        <span ></span>
+        <span><img src="../img/svg/star-alt-3-svgrepo-com.svg" alt=""></span>
+        <span class=" img-fluid" id="line_txt"> <a id="line_txt"href="..\html\dai.html">more</a></span>
+        
+    </div>
+    
+    
+    <div><!--空格-->
+        <br><br><br><br><br><br><br><br><br>
+    </div>
+
+    <h1  data-aos="fade-up"id="jikoshoukai"class="">コメント</h1>
+    <p data-aos-delay="300"data-aos-duration="500"data-aos="fade-right"id="h5" class="ps-4 ">—comment</p>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Comments</label>
+      </div>
+    <!--文字輸入框-->
+    
+    </div>
+ </div><!--內容結束-->
+  <!--回置頂-->
+  <div id="myBtn"onclick="topFunction()"title="Gotop">
+    <img src="../img/svg/arrow-up-circle-svgrepo-com.svg" alt="">
+  </div>
+    
+ <footer>
+<p class="text-center">Illustration:吳成恩<br>Web Front-End:吳成恩<br>UI Design:吳成恩<br>
+素材皆為免費或是本人擁有智慧財產權，此網站架設目的為期末網站設計作業用。
+</p>
+ </footer>  
+
+</body>
+
+<!--index
+    &資料庫處理+js動畫
+    conment的處理-->
+<script src="../js/animate.js"></script><!--額外寫的連結js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</html>
